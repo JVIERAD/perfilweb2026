@@ -3,7 +3,7 @@ import { Education, Certification } from '@/types';
 export const educationData: Education[] = [
     {
         id: "1",
-        degree: "Ingeniería de Sistemas",
+        degree: "Ingeniero de Sistemas",
         institution: "Universidad Cesar Vallejo",
         location: "Piura, Perú",
         startDate: "2021",

@@ -43,7 +43,7 @@ export const testimonialsData: Testimonial[] = [
     },
     {
         id: "5",
-        name: "Patricia Sánchez",
+        name: "Patricia González",
         role: "Development Lead",
         company: "Software Agency",
         rating: 5,

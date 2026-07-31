@@ -3,9 +3,9 @@ import { Course } from '@/types';
 export const coursesData: Course[] = [
     {
         id: "1",
-        title: "Desarrollo Web Moderno con React y Next.js",
-        description: "Aprende a crear aplicaciones web modernas usando React 18, Next.js 14, TypeScript y Tailwind CSS desde cero hasta nivel avanzado",
-        level: "Beginner",
+        title: "Desarrollo Web Moderno y Despliegue",
+        description: "Aprende a crear aplicaciones web modernas y desplegarlas al mundo desde cero hasta nivel avanzado",
+        level: "Advanced",
         duration: "2 a 3 semanas (Aprox.)",
         curriculum: [
             "Fundamentos de React y componentes",
@@ -19,7 +19,7 @@ export const coursesData: Course[] = [
             "Deployment en Vercel",
             "Proyecto final completo"
         ],
-        technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+        technologies: ["React","Next.js", "Tailwind CSS", "TypeScript","Vercel"],
         prerequisites: ["JavaScript básico", "HTML y CSS"],
         image: "/courses/react-nextjs.jpg"
     },

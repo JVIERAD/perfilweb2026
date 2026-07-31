@@ -59,22 +59,40 @@ export const projectsData: Project[] = [
     },
     {
         id: "4",
-        title: "API REST para IoT",
-        description: "API escalable para gestión de dispositivos IoT con autenticación y monitoreo en tiempo real",
+        title: "Plataforma de Chat en Tiempo Real",
+        description: "Plataforma web de mensajería en tiempo real con autenticación de usuarios, gestión de contactos y conversaciones privadas sincronizadas al instante.",
         longDescription: "Backend robusto construido con Node.js y PostgreSQL para manejar miles de dispositivos IoT simultáneamente.",
-        technologies: ["Node.js", "Express", "PostgreSQL", "Redis", "Docker"],
-        category: "API/Backend",
-        role: "Backend Developer",
-        startDate: "2022-03",
-        endDate: "2022-07",
-        images: ["/projects/perfilweb20261.avif", "/projects/perfilweb202612.avif"],
+        technologies: ["React+Vite", "FastAPI", "PostgreSQL", "Redis", "Docker", "WebSockets y JWT"],
+        category: "Web Development",
+        role: "Full Stack Developer",
+        startDate: "2026-07",
+        endDate: "2026-08",
+        images: ["/projects/chatweb.png", "/projects/chatweb2.png"],
         //sourceUrl: "https://github.com/usuario/iot-api",
         featured: false,
         metrics: [
             { label: "Devices Managed", value: "10K+" },
             { label: "Uptime", value: "99.9%" }
         ]
-    }
+    },
+    {
+        id: "5",
+        title: "Plataforma GRIN Web",
+        description: "Plataforma web modular para cotizaciones técnicas, cálculos solares y gestión de visitas con backend FastAPI y frontend React+Vite.",
+        longDescription: "Aplicación full stack construida sobre un monolito modular: frontend React+Vite para formularios, tablas y visualización, y backend FastAPI + PostgreSQL para APIs REST, generación de PDFs y procesos asíncronos en Redis/RQ.",
+        technologies: ["React+Vite", "FastAPI", "PostgreSQL", "Redis + RQ", "Docker", "SQLAlchemy + Pydantic"],
+        category: "Web Development",
+        role: "Full Stack Developer",
+        startDate: "2026-04",
+        endDate: "2026-07",
+        images: ["/projects/grinweb.png", "/projects/grinweb2.png"],
+        //sourceUrl: "https://github.com/usuario/grin_web",
+        featured: false,
+        metrics: [
+            { label: "Módulos integrados", value: "5" },
+            { label: "Servicios Docker", value: "6" }
+        ]
+}
 ];
 
 // Helper functions
